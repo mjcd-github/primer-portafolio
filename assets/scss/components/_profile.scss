@@ -1,0 +1,14 @@
+.profile__title--primary{
+    @include text-style(30px, 700, $primary-color);
+}
+
+.profile__title--secondary{
+    @include text-style(20px, 700, $secondary-color);
+}
+
+@media (max-width: 768px) {
+    .profile__title--secondary{
+    font-size: 20px;
+    }
+}
+

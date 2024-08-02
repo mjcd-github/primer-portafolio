@@ -1,0 +1,22 @@
+.navbar__name--font {
+  @include text-style(30px, 700, $primary-color);
+  font-style: italic;
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .nav-container__img {
+    text-align: center !important;
+  }
+  .navbar__name--font {
+    margin-left: 0 !important;
+  }
+}
+
+.nav-link {
+  font-weight: 500;
+  font-style: bold;
+  color: $primary-color;
+}
+
+

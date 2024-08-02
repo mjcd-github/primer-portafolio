@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+// base
+@import "./base/base";
+
+//components
+@import "./components/form";
+@import "./components/navbar-name";
+@import "./components/profile";
+@import "./components/habilidades-row";
+@import "./components/projects";
+@import "./components/contact";
+@import "./components/icon-container";
+

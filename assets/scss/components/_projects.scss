@@ -1,0 +1,8 @@
+.projects__row--primary{
+    @include text-style(30px, 700, $primary-color);
+}
+
+.projects__name--bold{
+    font-weight: 700;
+    
+}
